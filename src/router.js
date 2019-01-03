@@ -23,6 +23,11 @@ export default new Router({
             path: '/storages',
             name: 'Storages',
             component: () => import('./views/Storages.vue')
+        },
+        {
+            path: '/users',
+            name: 'Users',
+            component: () => import('./views/Users.vue')
         }
     ]
 })

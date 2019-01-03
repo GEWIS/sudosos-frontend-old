@@ -1,8 +1,8 @@
 <template>
-    <drag :transfer-data="storage" @dragstart="childDragStart">
+    <drag :transfer-data="storage" @dragstart="childDragStart" class="products-container">
         <drop @drop="productDropped" drop-effect="copy">
             <h3>{{ storage.name }}</h3>
-            <div class="products-container">
+            <div >
                 <div v-show="storage.products.length < 1">
                     Place products here
                 </div>

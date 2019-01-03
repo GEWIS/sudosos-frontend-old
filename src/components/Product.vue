@@ -42,6 +42,13 @@
 <style scoped>
     .product-image{
         width: 100%;
+        height: 100%;
+        user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
     }
     .product-row{
         margin-top: 8px;
